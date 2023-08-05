@@ -96,7 +96,7 @@ app.post('/api/tone', function(req, res, next) {
 });
 app.get('/sendEmails',function(req,res){
     var mailOptions={
-		from: "vngithub@gmail.com",
+		from: "***@gmail.com",
         to : req.query.to,
         subject : req.query.subject,
         text : req.query.body
