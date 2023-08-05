@@ -27,8 +27,8 @@ var express   = require('express'),
   var smtpTransport = nodemailer.createTransport({
     service: "Gmail",
     auth: {
-        user: "vngithub@gmail.com",
-        pass: "n0dejs123"
+        user: "***",
+        pass: "***"
     }
 });
 
